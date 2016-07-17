@@ -8,9 +8,6 @@ and the [Yeoman](http://yeoman.io) generator [generator-reveal](https://github.c
 
 ### Creating New Slides
 
-**tl;dr**  `yo reveal:slide --markdown "Slide Title"`
-
-
 From the terminal, pop in:
 
 ```sh
@@ -23,7 +20,12 @@ Available options:
 --markdown --attributes --notes
 ```
 
+Example:
+
+`yo reveal:slide "Slide Title" --markdown`
+
 _More information (i.e. option usage, vertical slides) available in the [generator-reveal documentation](https://github.com/slara/generator-reveal#slide)_
+
 
 
 ### Serving Slides (development)
